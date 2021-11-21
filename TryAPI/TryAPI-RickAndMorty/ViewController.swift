@@ -13,9 +13,10 @@ class InfoRespon : Codable{
 struct Info : Codable{
     var file_type : String
     var file_size : String
+    
 }
 class ViewController: UIViewController {
-    
+    var name234 : String
     override func viewDidLoad() {
         super.viewDidLoad()
    
